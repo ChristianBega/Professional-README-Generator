@@ -1,3 +1,11 @@
+# Node
+node_modules
+package-lock.json
+# VsCode
+.vscode
+# DsStore
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -102,3 +110,4 @@ dist
 
 # TernJS port file
 .tern-port
+

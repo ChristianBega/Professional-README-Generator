@@ -3,7 +3,6 @@ READ ME :: What goes inside a read me?
 1. title of my project 
 2. sections entitled 
 	a. Description
-	b. Table of Contents
 	c. Installation
 	d. Usage
 	e. License
@@ -12,6 +11,7 @@ READ ME :: What goes inside a read me?
 	h. Questions
 
 
+	b. Table of Contents
 Acceptance Criteria :: 
 
 
@@ -23,7 +23,7 @@ WHEN a user is prompted for info about (USER INPUTS)
 	4. usage information
 	5. contribution guidelines
 	6. Test instructions
-THEN a README file is generated based of info recived
+THEN a README file is generated based of info received
 
 
 
@@ -47,12 +47,32 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README.
 
 
-Psuedo code :: 
+Pseudo code :: 
 
 1. I need a prompt to ask for README file details
-	a. User inqurier prompt () method || (look @ week-7 - 19/20-inqurier)
+	a. User inquirer prompt () method || (look @ week-7 - 19/20- inquirer)
 2. I need to collect the user inputs
 	a. Store each user input as an object 
 		i. new key word && use constructor function to create new objects of readme file.
 3. I need to display the object and write it to a read me file
-	a. User fs write () || (look @ week-7 - 13/14-inqurier)
+	a. User fs write () || (look @ week-7 - 13/14-inquirer)
+
+
+
+
+
+1. Create an array of questions for user input
+		a. 
+2. Create a function to write README file
+3. Create a function to initialize app
+
+// Please provide a title for your project :
+// Please provide a description :
+// Please provide any installation instructions :
+// Please provide any usage information :
+// Please provide any credits/contributions :
+// Please choose a license :
+// Please choose a badge :
+// Please provide any features :
+// How can others contribute ?
+// Where can others reach out to ask questions (email,git,etc links)

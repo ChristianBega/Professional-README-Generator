@@ -80,7 +80,7 @@ function init() {
     const initWrite = generateMarkDown(response);
     // writeToFile - fs method which writes to a file
     //           file name   data we want to write to the file
-    writeToFile("README.md", initWrite);
+    writeToFile("genREADME.md", initWrite);
   });
 }
 // Function call to initialize app

@@ -1,10 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  // if statement
-  // return a license
-  // `![License](https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>)`
-  console.log(license);
   let licenseBadge = "";
   if (license === "MIT License") {
     licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
@@ -23,31 +17,11 @@ function renderLicenseBadge(license) {
   return licenseBadge;
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// function renderLicenseLink(license) {
-//   // if statement
-//   //                   # goes to the section
-//   // return `[License](#license)`
-//   // return ""
-// }
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-// function renderLicenseSection(license) {
-//   // if statement
-//   // return `## license`
-//   // $(license)
-// }
-
-// RenderGitHub function - responsible for linking github user input + link
-// return
-
-// TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
   # ${data.title}
-  ## ${data.description}
+  ## Description
+  ${data.description}
   ## Table of contents 
   * [Installation](#installation)
   * [Usage](#usage)
@@ -57,7 +31,7 @@ function generateMarkdown(data) {
   * [Contribution](#contribution)
   * [Test](#test)
   ## Usage
-  ${data.usage}
+  ![Alt text](${data.usage})
   ## Credits
   ${data.credits}
   ## License
@@ -65,13 +39,10 @@ function generateMarkdown(data) {
   ## Features
   ${data.features}
   ## Contribution 
-  ${data.contribution}
+  [${data.contribution}](https://github.com/${data.contribution})
   ## Tests
   ${data.test}
-  
 `;
-
 }
-
 
 module.exports = generateMarkdown;

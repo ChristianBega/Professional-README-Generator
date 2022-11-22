@@ -1,6 +1,8 @@
-# test
+# Professional README Generator
 
-## test
+## Description
+
+This project is command line application that will generate a README file. It utilizes inquirer and node fs to prompt and create the README file.
 
 ## Table of contents
 
@@ -14,22 +16,24 @@
 
 ## Usage
 
-test
+N/A
 
 ## Credits
 
+- [T3mpz](https://github.com/T3mpz)
+
 ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+N/A
 
 ## Features
 
-test
+N/A
 
 ## Contribution
 
-test
+N/A
 
 ## Tests
 
-undefined
+N/A

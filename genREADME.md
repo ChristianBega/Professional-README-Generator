@@ -10,15 +10,17 @@
   * [Features](#features)
   * [Contribution](#contribution)
   * [Test](#test)
-  ## Usage
-  ![Alt text](Test)
-  ## Credits
+  ## Installation
   Test
+  ## Usage
+  ![Alt text](./images/test-img.png)
+  ## Credits
+  [T3mpz](https://github.com/T3mpz)
   ## License
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Features
-  
+  test
   ## Contribution 
-  [](https://github.com/)
+  [T3mpz](https://github.com/T3mpz)
   ## Tests
   undefined

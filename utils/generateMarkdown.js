@@ -30,10 +30,12 @@ function generateMarkdown(data) {
   * [Features](#features)
   * [Contribution](#contribution)
   * [Test](#test)
+  ## Installation
+  ${data.installation}
   ## Usage
   ![Alt text](${data.usage})
   ## Credits
-  ${data.credits}
+  [${data.credits}](https://github.com/${data.credits})
   ## License
   ${renderLicenseBadge(data.license[0])}
   ## Features
